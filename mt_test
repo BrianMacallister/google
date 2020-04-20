@@ -1,12 +1,13 @@
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-  <ModulePrefs title=“M&T Onboarding”/>
+  <ModulePrefs title="SERVICENOW INSTANCE - CLAUDILLA"/>
    <Content type="html"><![CDATA[
-   <div id="content_div"> <iframe src="https://commbankingdemo.service-now.com/google/?id=multiform" id="knowledge_iframe" style="width:100%;height:100%;border:0;" scrolling="no"/></div>
+   <div id="content_div"> <iframe src="https://bmac27.service-now.com/csm?id=sc_cat_item&sys_id=65a88948dbad17000b0cf2131f961920" id="knowledge_iframe" style="width:100%;height:100%;border:0;" scrolling="no"/></div>
    <script type="text/javascript">
    // client script
    function() { var c = this; 
-    var frame_src = "https://commbankingdemo.service-now.com/google", frame_id = "knowledge_iframe", frame_el = document.getElementById('knowledge_iframe'),frame_win; 
+    var frame_src = "https://bmac27.service-now.com/csm", frame_id = "knowledge_iframe", frame_el = document.getElementById('knowledge_iframe'),frame_win; 
     frame_el.onload = function() {
     frame_win = frame_el.contentDocument; 
     var x = document.getElementById("knowledge_iframe"); 
